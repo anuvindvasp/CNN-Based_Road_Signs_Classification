@@ -61,7 +61,7 @@ An intuitive and user-friendly web interface was developed using Streamlit to:
 * Display predicted road sign labels
 * Present confidence scores and key performance metrics
 
-Conclusion
+## Conclusion
 
 This Road Sign Classifier, powered by CNN, showcases how deep learning can be effectively utilized in intelligent transportation. With its high accuracy, the model holds strong potential for deployment in real-time applications such as autonomous vehicles and traffic safety systems.
 
