@@ -1,46 +1,59 @@
 # CNN-Based Road Signs Classification
 ![image](https://github.com/user-attachments/assets/01e256de-546b-41a8-aa56-eaddc5789242)
 
-INTRODUCTION
+## INTRODUCTION
 
 Road safety is a critical aspect of transportation, and modern vehicles rely on advanced technology to minimize accidents and improve driver awareness. This project uses CNNs to recognize and classify road signs, helping ADAS interpret traffic rules accurately, contributing safer driving by reducing human errors and enhancing real-time decision-making.
 
 
-Objective
+## Objective
 
 To build a Convolutional Neural Network (CNN) model to classify road signs into 30 categories.
 Enhance autonomous driving and improve road safety using computer vision.
 
-Dataset
+## Dataset
 
 The dataset comprises a vast collection of labeled images of traffic signs, organized into various categories, each corresponding to a distinct type of road sign like Stop, Speed Limit, Yield, and others.
 
-Data Preprocessing
+## Data Preprocessing
 
 Resized images to 64x64 pixels
 Normalized pixel values between 0 and 1
 Labels encoded using one-hot encoding
 Applied data augmentation (rotation, flip, zoom, etc.)
 
-CNN Architecture
+## CNN Architecture
 
 Input Layer: 64x64x3 Images
+
 Convolutional Layers (Conv2D)
+
 Max Pooling layers (MaxPooling2D)
+
 Flatten layer
+
 Fully connected Dense layers
+
 Dropout layers for regularization
+
 Output layer : Softmax activation
+
 Optimizer: Adam
+
 Hyperparameter Optimization : Keras Tuner
 
-Model Accuracy:
+
+### Model Accuracy:
+
 Training Accuracy   : ~0.9981
+
 Validation Accuracy : ~0.9009
+
 Test Accuracy       : ~0.8750
+
 These results reflect a robust model capable of delivering accurate predictions on previously unseen data, demonstrating strong generalization performance.
 
-Streamlit Web App
+## Streamlit Web App
 
 An intuitive and user-friendly web interface was developed using Streamlit to:
 
